@@ -9,3 +9,10 @@ const cb = ()=>{
 returnsANamedFunction(()=>{
     return cb();
     });
+
+
+returnsAnAnonymousFunction(()=>{
+        return function() {
+            console.log("Anonymous");
+        }
+    })   
