@@ -6,3 +6,6 @@ const cb = ()=>{
     return "called";
 }
 
+returnsANamedFunction(()=>{
+    return cb();
+    });
